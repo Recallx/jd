@@ -1,0 +1,393 @@
+@import '../css/base.less';
+
+.cd {
+    color: #d31523;
+}
+body {
+    background: #f5f5f5;
+}
+
+
+.box {
+    .top_nav {
+        position: fixed;
+        width: 100%;
+        height: 40px;
+        background: #c91523;
+        display: flex;
+        z-index: 100;
+        .logo{
+            width: 70px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h1 {
+                display: flex;
+                a {
+                    display: block;
+                    width: 112px/2;
+                    height: 40px/2;
+                    font-size: 0px;
+                    background: url('../img/jd-sprites.png');
+                    background-repeat: no-repeat;
+                    background-position: 0 -220px/2;
+                    background-size: 200px 200px;
+                }
+            }
+        }
+        .sear{
+            position: relative;
+            display: flex;
+            flex: 1;
+            padding: 3px;
+            input {
+                width: 100%;
+                height: 100%;
+                border: 1px solid #c91523;
+                border-radius: 15px;
+                text-indent: 22px;
+            }
+            &::after {
+                position: absolute;
+                top: 11px;
+                left: 7px;
+                content: '';
+                display: block;
+                width: 20px;
+                height: 20px;
+                background-image: url('../img/jd-sprites.png');
+                background-repeat: no-repeat;
+                background-position: -120px/2 -220px/2;
+                background-size: 200px 200px;
+    
+            }
+        }
+        .login{
+            width: 50px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a {
+                color: #fff;
+            }
+        }
+    }
+}
+.box3 {
+    background: #fff;
+    a {
+        float: left;
+        width: 25%;
+        font-size: 14px;
+        text-align: center;
+        padding: 5px;
+        img {
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+}
+.box4 {
+    background: #ffff;
+    margin-top: 10px;
+    .shang4 {
+        display: flex;
+        justify-content: space-between;
+        .shi {
+            display: flex;
+            margin-left: 20px;
+            >span {
+                width: 18px;
+                height: 22px;
+                background-image: url('../img/jd-sprites.png');
+                background-repeat: no-repeat;
+                background-position: -169px/2 -219px/2;
+                background-size: 200px 200px;
+            }
+            >h5 {
+                font-size: 16px;
+                padding: 0px 10px;
+                font-weight: normal;
+            }
+            .shijian {
+                margin-left: 5px;
+                span {
+                    background: #000;
+                    color: #fff;
+                    padding: 0 2px;
+                    &:nth-child(3n) {
+                        background: none;
+                        color: #666;
+                    }
+                }
+            }
+        }
+        >a {
+            font-size: 13px;
+            padding: 5px 5px;
+        }
+    }
+    .xia4 {
+        text-align: center;
+        padding-top: 10px;
+        li {
+            position: relative;
+            float: left;
+            width: 33.33333%;
+            a {
+                img {
+                    width: 90%;
+                }
+            }
+            .remai {
+                width: 46px;
+                height: 28px;
+                color: #fff;
+                background: #fdb60a;
+                line-height: 28px;
+                border-radius: 50%;
+                font-size: 14px;
+                position: absolute;
+                top: 66px;
+                left: 72px;
+            }
+        }
+    }
+}
+.box5 {
+    position: relative;
+    .bei5 {
+        position: absolute;
+        left: 0;
+        bottom: 5px;
+        li {
+            float: left;
+            width: 50%;
+            a {
+                img {
+                    width: 95%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+.box6 {
+    .shang6 {
+        a {
+            float: left;
+            width: 33.33333%;
+        }
+    }
+    .xia6 {
+        a {
+            float: left;
+            width: 50%;
+        }
+    }
+}
+.box7 {
+    padding: 5px;
+}
+.box8 {
+    .tese {
+        padding: 10px 5px;
+        h3 {
+            font-size: 16px;
+        }
+    }
+    .tu8 {
+        a {
+            float: left;
+            width: 50%;
+            &:nth-child(-n+3) {
+                margin-bottom: 1px;
+            }
+        }
+    }
+}
+.box9 {
+    .shang9 {
+        padding: 10px 5px;
+        h3 {
+            font-size: 16px;
+        }
+    }
+    .xia9 {
+        a {
+            float: left;
+            width: 25%;
+            &:nth-child(2) {
+                width: 50%;
+                margin-bottom: 1px;
+            }
+            &:nth-child(1) {
+                width: 50%;
+            }
+        }
+    }
+}
+.box10 {
+    .shang10 {
+        padding: 10px 5px;
+        h3 {
+            font-size: 16px;
+        }
+    }
+    .tu10 {
+        a {
+            float: left;
+            width: 30%;
+            &:nth-child(1) {
+                width: 40%;
+            }
+        }
+    }
+}
+.box11 {
+    background: #fff;
+    .shang11 {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 5px;
+        h3 {
+            font-size: 16px;
+        }
+        a {
+            font-size: 14px;
+            img {
+                display: inline;
+                vertical-align: middle;
+            }
+        }
+    }
+    .xia11 {
+        li {
+            float: left;
+            width: 50%;
+            background: #fff;
+            padding: 10px;
+            .kan {
+                display: flex;
+                justify-content: space-between;
+                a {
+                    font-size: 14px;
+                    color: #666;
+                    border: 1px solid #666;
+                }
+            }
+            .tu11 {
+                a {
+                    img {
+                        width: 90%;
+                    }
+                    p {
+                        font-size: 14px;
+                        height: 40px;
+                        overflow: hidden;
+                        border-bottom: 1px solid #ccc;
+                    }
+                }
+            }
+        }
+    }
+}
+footer {
+    background: #f3f5f7;
+    margin-bottom: 40px;
+    .shang12 {
+        height: 45px;
+        text-align: center;
+        line-height: 45px;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        span {
+            font-size: 14px;
+            color: #666;
+        }
+    }
+    .zhong12 {
+        display: flex;
+        text-align: center;
+        padding: 10px 10px;
+        a {
+            flex: 1;
+            font-size: 14px;
+            color: #666;
+        }
+    }
+    .zhong13 {
+        display: flex;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        padding: 10px 0;
+        a {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &:nth-child(2) {
+                >span {
+                    display: inline-block;
+                    width: 38px;
+                    height: 38px;
+                    background-image: url('../img/jd-sprites.png');
+                    background-repeat: no-repeat;
+                    background-position: -80px/2 -140px/2;
+                    background-size: 200px 200px;
+                }
+            }
+            &:nth-child(3) {
+                >span {
+                    display: inline-block;
+                    width: 38px;
+                    height: 38px;
+                    background-image: url('../img/jd-sprites.png');
+                    background-repeat: no-repeat;
+                    background-position: -160px/2 -140px/2;
+                    background-size: 200px 200px;
+                }
+            }
+            span {
+                display: inline-block;
+                width: 38px;
+                height: 38px;
+                background-image: url('../img/jd-sprites.png');
+                background-repeat: no-repeat;
+                background-position: -240px/2 -140px/2;
+                background-size: 200px 200px;
+            }
+            p {
+                font-size: 14px;
+                color: #666;
+            }
+        }
+    }
+    .xia12 {
+        height: 60px;
+        text-align: center;
+        line-height: 70px;
+        span {
+            font-size: 14px;
+            color: #666;
+        }
+    }
+}
+.dingwei {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    a {
+        float: left;
+        img {
+            width: 70px;
+            height: 48px;
+        }
+    }
+}

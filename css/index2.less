@@ -1,0 +1,67 @@
+@import './base.less';
+
+.cd {
+    color: #c91523;
+}
+.box {
+    .title {
+        display: flex;
+        height: 40px;
+        background: #c91523;
+        .logo {
+            display: flex;
+            align-items: center;
+            padding-left: 5px;
+            h1 {
+                a {
+                    font-size: 0;
+                    width: 56px;
+                    height: 20px;
+                    background-image: url('../img/jd-sprites.png');
+                    background-repeat: no-repeat; 
+                    background-position: 0 -220px/2;
+                    background-size: 200px 200px;
+                }
+            }
+        }
+        .kuang {
+            position: relative;
+            flex: 1;
+            padding: 3px;
+            input {
+                width: 100%;
+                height: 100%;
+                border-radius: 15px;
+                text-indent: 22px;
+                border: 1px solid #c91523;
+            }
+            span {
+                position: absolute;
+                top: 11px;
+                left: 7px;
+                display: block;
+                width: 20px;
+                height: 20px;
+                background-image: url('../img/jd-sprites.png');
+                background-repeat: no-repeat;
+                background-position: -120px/2 -220px/2;
+                background-size: 200px 200px;
+            }
+        }
+        .denglu {
+            width: 50px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            a {
+                font-size: 16px;
+                color: #fff;
+            }
+        }
+    }
+}
+    .box2 {
+        a {
+        width: 100%;
+        }
+    }

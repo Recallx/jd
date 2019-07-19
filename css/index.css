@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  -webkit-tap-highlight-color: transparent;
+}
+ul {
+  list-style: none;
+}
+img {
+  width: 100%;
+  display: block;
+}
+input {
+  outline: none;
+}
+.clearflx::after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+.cd {
+  color: #d31523;
+}
+body {
+  background: #f5f5f5;
+}
+.box .top_nav {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  background: #c91523;
+  display: flex;
+  z-index: 100;
+}
+.box .top_nav .logo {
+  width: 70px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .top_nav .logo h1 {
+  display: flex;
+}
+.box .top_nav .logo h1 a {
+  display: block;
+  width: 56px;
+  height: 20px;
+  font-size: 0px;
+  background: url('../img/jd-sprites.png');
+  background-repeat: no-repeat;
+  background-position: 0 -110px;
+  background-size: 200px 200px;
+}
+.box .top_nav .sear {
+  position: relative;
+  display: flex;
+  flex: 1;
+  padding: 3px;
+}
+.box .top_nav .sear input {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #c91523;
+  border-radius: 15px;
+  text-indent: 22px;
+}
+.box .top_nav .sear::after {
+  position: absolute;
+  top: 11px;
+  left: 7px;
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../img/jd-sprites.png');
+  background-repeat: no-repeat;
+  background-position: -60px -110px;
+  background-size: 200px 200px;
+}
+.box .top_nav .login {
+  width: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .top_nav .login a {
+  color: #fff;
+}
+.box3 {
+  background: #fff;
+}
+.box3 a {
+  float: left;
+  width: 25%;
+  font-size: 14px;
+  text-align: center;
+  padding: 5px;
+}
+.box3 a img {
+  width: 50%;
+  margin: 0 auto;
+}
+.box4 {
+  background: #ffff;
+  margin-top: 10px;
+}
+.box4 .shang4 {
+  display: flex;
+  justify-content: space-between;
+}
+.box4 .shang4 .shi {
+  display: flex;
+  margin-left: 20px;
+}
+.box4 .shang4 .shi > span {
+  width: 18px;
+  height: 22px;
+  background-image: url('../img/jd-sprites.png');
+  background-repeat: no-repeat;
+  background-position: -84.5px -109.5px;
+  background-size: 200px 200px;
+}
+.box4 .shang4 .shi > h5 {
+  font-size: 16px;
+  padding: 0px 10px;
+  font-weight: normal;
+}
+.box4 .shang4 .shi .shijian {
+  margin-left: 5px;
+}
+.box4 .shang4 .shi .shijian span {
+  background: #000;
+  color: #fff;
+  padding: 0 2px;
+}
+.box4 .shang4 .shi .shijian span:nth-child(3n) {
+  background: none;
+  color: #666;
+}
+.box4 .shang4 > a {
+  font-size: 13px;
+  padding: 5px 5px;
+}
+.box4 .xia4 {
+  text-align: center;
+  padding-top: 10px;
+}
+.box4 .xia4 li {
+  position: relative;
+  float: left;
+  width: 33.33333%;
+}
+.box4 .xia4 li a img {
+  width: 90%;
+}
+.box4 .xia4 li .remai {
+  width: 46px;
+  height: 28px;
+  color: #fff;
+  background: #fdb60a;
+  line-height: 28px;
+  border-radius: 50%;
+  font-size: 14px;
+  position: absolute;
+  top: 66px;
+  left: 72px;
+}
+.box5 {
+  position: relative;
+}
+.box5 .bei5 {
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+}
+.box5 .bei5 li {
+  float: left;
+  width: 50%;
+}
+.box5 .bei5 li a img {
+  width: 95%;
+  margin: 0 auto;
+}
+.box6 .shang6 a {
+  float: left;
+  width: 33.33333%;
+}
+.box6 .xia6 a {
+  float: left;
+  width: 50%;
+}
+.box7 {
+  padding: 5px;
+}
+.box8 .tese {
+  padding: 10px 5px;
+}
+.box8 .tese h3 {
+  font-size: 16px;
+}
+.box8 .tu8 a {
+  float: left;
+  width: 50%;
+}
+.box8 .tu8 a:nth-child(-n+3) {
+  margin-bottom: 1px;
+}
+.box9 .shang9 {
+  padding: 10px 5px;
+}
+.box9 .shang9 h3 {
+  font-size: 16px;
+}
+.box9 .xia9 a {
+  float: left;
+  width: 25%;
+}
+.box9 .xia9 a:nth-child(2) {
+  width: 50%;
+  margin-bottom: 1px;
+}
+.box9 .xia9 a:nth-child(1) {
+  width: 50%;
+}
+.box10 .shang10 {
+  padding: 10px 5px;
+}
+.box10 .shang10 h3 {
+  font-size: 16px;
+}
+.box10 .tu10 a {
+  float: left;
+  width: 30%;
+}
+.box10 .tu10 a:nth-child(1) {
+  width: 40%;
+}
+.box11 {
+  background: #fff;
+}
+.box11 .shang11 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px;
+}
+.box11 .shang11 h3 {
+  font-size: 16px;
+}
+.box11 .shang11 a {
+  font-size: 14px;
+}
+.box11 .shang11 a img {
+  display: inline;
+  vertical-align: middle;
+}
+.box11 .xia11 li {
+  float: left;
+  width: 50%;
+  background: #fff;
+  padding: 10px;
+}
+.box11 .xia11 li .kan {
+  display: flex;
+  justify-content: space-between;
+}
+.box11 .xia11 li .kan a {
+  font-size: 14px;
+  color: #666;
+  border: 1px solid #666;
+}
+.box11 .xia11 li .tu11 a img {
+  width: 90%;
+}
+.box11 .xia11 li .tu11 a p {
+  font-size: 14px;
+  height: 40px;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+footer {
+  background: #f3f5f7;
+  margin-bottom: 40px;
+}
+footer .shang12 {
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+footer .shang12 span {
+  font-size: 14px;
+  color: #666;
+}
+footer .zhong12 {
+  display: flex;
+  text-align: center;
+  padding: 10px 10px;
+}
+footer .zhong12 a {
+  flex: 1;
+  font-size: 14px;
+  color: #666;
+}
+footer .zhong13 {
+  display: flex;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+footer .zhong13 a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .zhong13 a:nth-child(2) > span {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  background-image: url('../img/jd-sprites.png');
+  background-repeat: no-repeat;
+  background-position: -40px -70px;
+  background-size: 200px 200px;
+}
+footer .zhong13 a:nth-child(3) > span {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  background-image: url('../img/jd-sprites.png');
+  background-repeat: no-repeat;
+  background-position: -80px -70px;
+  background-size: 200px 200px;
+}
+footer .zhong13 a span {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  background-image: url('../img/jd-sprites.png');
+  background-repeat: no-repeat;
+  background-position: -120px -70px;
+  background-size: 200px 200px;
+}
+footer .zhong13 a p {
+  font-size: 14px;
+  color: #666;
+}
+footer .xia12 {
+  height: 60px;
+  text-align: center;
+  line-height: 70px;
+}
+footer .xia12 span {
+  font-size: 14px;
+  color: #666;
+}
+.dingwei {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+}
+.dingwei a {
+  float: left;
+}
+.dingwei a img {
+  width: 70px;
+  height: 48px;
+}
